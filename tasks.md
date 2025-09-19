@@ -2,14 +2,14 @@
 
 ## `Amarkosh Flutter App`
 
-- Deploy this app setup with iPad , iPhone & MacOS all platforms.
+- ~~Deploy this app setup with iPad , iPhone & MacOS all platforms.~~
 
 #
 
 ## `Mafatiuljinan [Personal account for apple]`
 
-- Upload in IOS.
-- add iPad target for building.
+- ~~add iPad target for building.~~
+- ~~Upload in IOS.~~
 
 #
 
@@ -125,43 +125,69 @@
 
 ---
 
-Date: **18-09-2025**\
+Date: **19-09-2025**\
+Project: **AmarkoshFlutter**\
+Dev Name: **Abhishek Kumar**\
+Status: **Ongoing**
+
+**Project report:**
+
+- Standardized XML declaration and formatting
+- Maintained original icon dimensions and styling
+- Ensured consistent code style with proper indentation
+- feat(assets): update facebook svg icon with improved formatting | Updated invalid path for proguard
+- Updated Firebase iOS dependencies to latest versions (12.2.0)
+- Enhanced UI responsiveness for tablet and iPad support
+- Added forgot password dialog functionality
+- Fixed withdrawal issues in app payment flow
+- Improved teacher financial details screen layout
+- Prepared iOS app store release version for iPhone
+- Set iOS platform version from 12.0 to 15.1 in Podfile
+- Downgrade Firebase and related pods from 12.2.0 to 12.0.0
+- Update GoogleAdsOnDeviceConversion from 2.3.0 to 2.1.0
+- Update various other pod dependencies and checksums
+- Aligns with updated iOS deployment target requirements
+
+**Github**: [**Link**](https://github.com/IBArtsTech/AmarkoshFlutter)\
+**Reyflow**: [Link](https://www.reyflow.com/ib-tech/browse/FLUTT-39/)\
+**Application Build**: [Deployed on AppStore]\
+**Credentials**:\
+**\-** **userid:** [**abhishekk@ibarts.in**](mailto:allworkdone27@gmail.com)
+**\- password**: **Abhishek@123**
+
+---
+
+Date: **19-09-2025**\
 Project: **Mafatihuljinan Hybrid App**\
 Dev Name: **Abhishek Kumar**\
 Status: **Ongoing**
 
 **Project report:**
 
-- Replace `bookmarks()` calls with `bookmarks.value =` assignments to properly update the observable list in BookmarkController
-- Add explicit bookmark list updates after login success in LoginController for Google, Apple, and standard login flows
-- Refactor BookmarkProvider sync logic to clear existing bookmarks and add fresh data from server instead of merging with local data
-- Remove obsolete code that extracted Realm object data before operations
-- Improve data consistency during bookmark synchronization between local and remote sources
-- add ReminderController dependency to category detail and login controllers
-- replace direct LocalNotificationServices calls with reminder controller methods
-- implement reminder fetching and syncing during user login flows
-- update bookmarks and reminders lists after successful login
-- support both online and offline reminder synchronization
-- updated Prayer time Base url , Route and Parsing Methods.
-- Support both 'post_id' and 'postid' fields for postId extraction
-- Create Category directly from API data instead of searching local DB
-- Save API data to local database to avoid future searches
-- Fix concurrent modification errors by copying reminder lists before deletion
-- Convert ReminderView to StatefulWidget for refresh functionality
-- Add refresh button with loading indicator in app bar
-- Prevent concurrent modification errors during reminder deletion
+- set TARGETED_DEVICE_FAMILY to support both iPhone and iPad
+- specify SUPPORTED_PLATFORMS for iphoneos and iphonesimulator
+- disable SUPPORTS_MACCATALYST
+- update pubspec.lock with latest dependency versions
+- bump Dart SDK constraint to ">=3.7.0-0 <4.0.0"
+- Add custom scroll behavior to disable bouncing and use clamping physics
+- Adjust scroll target index to prevent highlighting near end of list
+- Wrap ScrollablePositionedList with ScrollConfiguration to apply custom scroll behavior
+- Maintain existing lyrics display and highlighting logic
+- Add 152.png and 167.png for iPad support
+- Update Contents.json with new icon sizes
+- Bump iOS version to 2.2.0+2.0 in pubspec.yaml
 
 **Github**: [**Link**](https://github.com/IBArtsTech/Mafatihuljinan_Revamp)\
 **Reyflow**: [Link](https://reyflow.com/ib-tech/browse/FLUTT-1/)\
 **DOC Sheet:** [**Link**](https://docs.google.com/spreadsheets/d/1-v-_y38vYsRMK5h60Kvaj7t0Er4dlFJnl1Eg0d04Yo8/edit?gid=0#gid=0)\
-**Application Build**: [Link](https://project.ibartstech.com/Parvez/Mafa/Mafatihuljinan-18-09-2025.apk)\
+**Application Build**: [Link](https://project.ibartstech.com/Parvez/Mafa/Mafatihuljinan-19-09-2025.apk)\
 **Credentials**:\
 **\-** **userid:** **allworkdone** || [**allworkdone27@gmail.com**](mailto:allworkdone27@gmail.com)
 **\- password**: **1234**
 
 ---
 
-Date: **18-09-2025**\
+Date: **19-09-2025**\
 Project: **Royal Calender Flutter**\
 Dev Name: **Abhishek Kumar**\
 Status: **Ongoing**
