@@ -1,15 +1,8 @@
 # <ins>**`Task Plans`**</ins>
 
-## `Amarkosh Flutter App`
-
-- ~~Deploy this app setup with iPad , iPhone & MacOS all platforms.~~
-
-#
-
 ## `Mafatiuljinan [Personal account for apple]`
 
-- ~~add iPad target for building.~~
-- ~~Upload in IOS.~~
+- method to redirect when click
 
 #
 
@@ -26,9 +19,9 @@
 
 #
 
-## `LDAS [ Anit | Abhishek ]`
+## `LDAS [ Anit | Abhishek | Chittadeep ]`
 
-- Meeting today.
+-
 
 #
 
@@ -38,9 +31,21 @@
 
 #
 
+## `Messaging app [emergostat] [ Kausik ] [Personal account for apple]`
+
+- Memory Page sizing. [22-09-2025]
+
+#
+
 ## `Yaad Plug`
 
 - Further Handling is done by chittadeep.
+
+#
+
+## ~~`Amarkosh Flutter App`~~
+
+- ~~Deploy this app setup with iPad , iPhone & MacOS all platforms.~~
 
 #
 
@@ -59,12 +64,6 @@
 ## `RxRemainder [ Kausik ] [Personal account for apple]`
 
 - ~~App must support 16 KB memory page sizes~~
-
-#
-
-## `Messaging app [emergostat] [ Kausik ] [Personal account for apple]`
-
-- App must support 16 KB memory page sizes fix it
 
 #
 
@@ -194,17 +193,20 @@ Status: **Ongoing**
 
 **Project report:**
 
-- replace Mobkit Calendar with Syncfusion Calendar for improved functionality
-- update calendar appearance with custom header, navigation arrows, and date styling
-- integrate support for the current day highlighting and rounded date corners
-- remove unused dependencies: dbus, geoclue, and others
-- add new dependencies: syncfusion_flutter_calendar, syncfusion_localizations
-- downgrade geolocator and update intl for compatibility
-- bump Flutter SDK version to 3.35.1 for enhanced features and fixes
+- implement tests for Gregorian to Hijri conversion
+- ensure accurate conversion results in tests
+- update dependencies in pubspec.lock
+- remove dbus and add flutter_localizations
+- modify CalendarScreen to show Gregorian and Hijri dates
+- improve styling for better user experience
+- add build.gradle.kts for Android app and root
+- configure Java 11 compatibility and Flutter plugin
+- update metadata revision to 05db9689081f091050f01aed79f04dce0c750154
+- change channel to stable
 
 **Github**: [**Link**](https://github.com/IBArtsTech/RoyalCalendarFlutter)\
 **Reyflow**: [Link](https://www.reyflow.com/ib-tech/browse/FLUTT-36/)\
-**Application Build**: [NA]<!-- (https://project.ibartstech.com/Parvez/RoyalCalendar/RoyalCalender-17-09-2025.apk) -->
+**Application Build**: [Link](https://project.ibartstech.com/Parvez/RoyalCalendar/RoyalCalender-19-09-2025.apk)
 
 ---
 
@@ -273,21 +275,7 @@ Status: **Ongoing**
 **Reyflow**: [**Link**](https://reyflow.com/ib-tech/browse/FLUTT-4/)\
 **Application Link:** [NA]
 
-<!-- Misc: Updated Royal Calender to Api Level 35 with Build number 32
-
-Date: **01-08-2025**\
-Project: **Yaad School**\
-Dev Name: **Abhishek Kumar**\
-Status: **Ongoing**
-
-**Project report:**
-
-- fixed Playstore issue for health related unknow manifest code.
-- uploaded new build on Playstore closed testing with build number 11
-
-**Github**: [**Link**](https://github.com/IBArtsTech/YadSchool_React)\
-**Application Build**: [Uploaded to playstore for closed testing]
-
+<!--
 ---
 
 Good Channel: Helped Chittadeep in Fixing Application flow and api flow.
@@ -312,29 +300,3 @@ Status: **Ongoing**
 **Github**: [**Link**](https://github.com/IBArtsTech/LDAS_Flutter)\
 **Reyflow**: [Link](https://reyflow.com/ib-tech/browse/FLUTT-17/)\
 **Application Build**: [Will be Provided by Chittadeep]
-
----
-
-Date: **11-07-2025**\
-Project: **StepWhere**\
-Dev Name: **Abhishek Kumar**\
-Status: **Ongoing**
-
-**Project report:**
-
-- Tried to Debug issue for In App Purchase
-- Applied Debugging methods to find out Store Kit issue.
-- Tried Updating in app purchase store kit and in app purchase plugin.
-- Created POC for In App Purchase for testing issue for `product not fount`
-- Applied all the plugins and bundle modification.
-- added product id and other configuration for inapp purchase to work.
-- created new product for purchase as consumable.
-
-Note: Still stuck in the issue. `IAPError(code: storekit_no_response, source: app_store, message: StoreKit: Failed to get response from platform., details: null)`
-
-**Github**: [**Link**](https://github.com/IBArtsTech/StepWhereFlutter)\
-**POC Github:** [Link](https://github.com/abhishekib/in_app_purchase)
-**Reyflow**: [Link](https://reyflow.com/ib-tech/browse/FLUTT-12/)\
-**Application Build**: [NA IOS Work]\
-**Credentials**:\
-**\-** **email** - [smartshoe22@gmail.com](mailto:smartshoe22@gmail.com) || **pass** - Stepwhere@2024 -->
