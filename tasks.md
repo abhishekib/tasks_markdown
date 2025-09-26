@@ -1,15 +1,33 @@
 # <ins>**`Task Plans`**</ins>
 
+#
+
+## `Amarkosh Flutter App`
+
+- Fix Notification permission issue.
+- Fix Jitsi Meeting Joining Issue after client call.
+
+- LessonList.dart line number 232 to permanantly set the meeting button
+- JitsiMeet.dart
+  Tutor--> E: bhavya_t | P:test
+  Student--> E: aarav_t | P:test
+
+#
+
 ## `Mafatiuljinan [Personal account for apple]`
 
-- method to redirect when click
+- Check what is the issue with Munajat Fav not working.
+- Check with manish how we can add category deeplink.
+- Check what is causing delay in the deeplink navigation.
+- Check what is the issue with Holy Quran Normal text not show.
 
 #
 
 ## `Royal Calender [Migration from React-native to Flutter]`
 
-- Further follow up with Calender integration and modification.
-- add hijri date to the calender items.
+- Check what is the issue with Flutter local notification.
+- fix the left and right navigation of calender date change.
+- review client's requirement and update the application accordingly.
 
 #
 
@@ -25,33 +43,21 @@
 
 #
 
-## `Lawyyar [Buisness account for apple] [Kousik] [ Priorify ]`
-
-- Memory Page sizing. [22-09-2025]
-
-#
-
-## `Messaging app [emergostat] [ Kausik ] [Personal account for apple]`
-
-- Memory Page sizing. [22-09-2025]
-
-#
-
 ## `Yaad Plug`
 
 - Further Handling is done by chittadeep.
 
 #
 
-## ~~`Amarkosh Flutter App`~~
+## `Messaging app [emergostat] [ Kausik ] [Personal account for apple]`
 
-- ~~Deploy this app setup with iPad , iPhone & MacOS all platforms.~~
+-
 
 #
 
-## `New Ecommerce App [ Flutter Flow ] [PerSense Client]`
+## `Lawyyar [Buisness account for apple] [Kousik] [ Priorify ]`
 
-- Start New Project
+-
 
 #
 
@@ -63,7 +69,13 @@
 
 ## `RxRemainder [ Kausik ] [Personal account for apple]`
 
-- ~~App must support 16 KB memory page sizes~~
+-
+
+#
+
+## ~~`New Ecommerce App [ Flutter Flow ] [PerSense Client]`~~
+
+- ~~Start New Project~~
 
 #
 
@@ -124,130 +136,81 @@
 
 ---
 
-Date: **19-09-2025**\
+Date: **25-09-2025**\
 Project: **AmarkoshFlutter**\
 Dev Name: **Abhishek Kumar**\
 Status: **Ongoing**
 
 **Project report:**
 
-- Standardized XML declaration and formatting
-- Maintained original icon dimensions and styling
-- Ensured consistent code style with proper indentation
-- feat(assets): update facebook svg icon with improved formatting | Updated invalid path for proguard
-- Updated Firebase iOS dependencies to latest versions (12.2.0)
-- Enhanced UI responsiveness for tablet and iPad support
-- Added forgot password dialog functionality
-- Fixed withdrawal issues in app payment flow
-- Improved teacher financial details screen layout
-- Prepared iOS app store release version for iPhone
-- Set iOS platform version from 12.0 to 15.1 in Podfile
-- Downgrade Firebase and related pods from 12.2.0 to 12.0.0
-- Update GoogleAdsOnDeviceConversion from 2.3.0 to 2.1.0
-- Update various other pod dependencies and checksums
-- Aligns with updated iOS deployment target requirements
+- R
 
 **Github**: [**Link**](https://github.com/IBArtsTech/AmarkoshFlutter)\
 **Reyflow**: [Link](https://www.reyflow.com/ib-tech/browse/FLUTT-39/)\
-**Application Build**: [Deployed on AppStore]\
+**Docsheet**: [Link](https://docs.google.com/spreadsheets/d/1-kOjWfqsCxJySr2h_PI0iW4x8IpBcJTA0avpKStH4SA/edit?gid=0#gid=0)
+**Application Build**: [NA]\
 **Credentials**:\
 **\-** **userid:** [**abhishekk@ibarts.in**](mailto:allworkdone27@gmail.com)
 **\- password**: **Abhishek@123**
 
 ---
 
-Date: **19-09-2025**\
+Date: **25-09-2025**\
 Project: **Mafatihuljinan Hybrid App**\
 Dev Name: **Abhishek Kumar**\
 Status: **Ongoing**
 
 **Project report:**
 
-- set TARGETED_DEVICE_FAMILY to support both iPhone and iPad
-- specify SUPPORTED_PLATFORMS for iphoneos and iphonesimulator
-- disable SUPPORTS_MACCATALYST
-- update pubspec.lock with latest dependency versions
-- bump Dart SDK constraint to ">=3.7.0-0 <4.0.0"
-- Add custom scroll behavior to disable bouncing and use clamping physics
-- Adjust scroll target index to prevent highlighting near end of list
-- Wrap ScrollablePositionedList with ScrollConfiguration to apply custom scroll behavior
-- Maintain existing lyrics display and highlighting logic
-- Add 152.png and 167.png for iPad support
-- Update Contents.json with new icon sizes
-- Bump iOS version to 2.2.0+2.0 in pubspec.yaml
+- U
 
 **Github**: [**Link**](https://github.com/IBArtsTech/Mafatihuljinan_Revamp)\
 **Reyflow**: [Link](https://reyflow.com/ib-tech/browse/FLUTT-1/)\
 **DOC Sheet:** [**Link**](https://docs.google.com/spreadsheets/d/1-v-_y38vYsRMK5h60Kvaj7t0Er4dlFJnl1Eg0d04Yo8/edit?gid=0#gid=0)\
-**Application Build**: [Link](https://project.ibartstech.com/Parvez/Mafa/Mafatihuljinan-19-09-2025.apk)\
+**Application Build**: [Link](https://project.ibartstech.com/Parvez/Mafa/Mafatihuljinan-25-09-2025.apk)\
 **Credentials**:\
 **\-** **userid:** **allworkdone** || [**allworkdone27@gmail.com**](mailto:allworkdone27@gmail.com)
 **\- password**: **1234**
 
 ---
 
-Date: **19-09-2025**\
+Date: **25-09-2025**\
 Project: **Royal Calender Flutter**\
 Dev Name: **Abhishek Kumar**\
 Status: **Ongoing**
 
 **Project report:**
 
-- implement tests for Gregorian to Hijri conversion
-- ensure accurate conversion results in tests
-- update dependencies in pubspec.lock
-- remove dbus and add flutter_localizations
-- modify CalendarScreen to show Gregorian and Hijri dates
-- improve styling for better user experience
-- add build.gradle.kts for Android app and root
-- configure Java 11 compatibility and Flutter plugin
-- update metadata revision to 05db9689081f091050f01aed79f04dce0c750154
-- change channel to stable
+- I
+
+Note: The Notification has trigger issue & calender event list date switching issue still work in progress.
 
 **Github**: [**Link**](https://github.com/IBArtsTech/RoyalCalendarFlutter)\
 **Reyflow**: [Link](https://www.reyflow.com/ib-tech/browse/FLUTT-36/)\
-**Application Build**: [Link](https://project.ibartstech.com/Parvez/RoyalCalendar/RoyalCalender-19-09-2025.apk)
+**Application Build**: [Link](https://project.ibartstech.com/Parvez/RoyalCalendar/RoyalCalender-25-09-2025.apk)
 
 ---
 
-Date: **18-09-2025**\
-Project: **RxRemainder Flutter**\
+Date: **24-09-2025**\
+Project: **Messaging App**\
 Dev Name: **Abhishek Kumar**\
 Status: **Ongoing**
 
 **Project report:**
 
-- Update compileSdk and targetSdk to 35
-- Upgrade sqflite dependency from 2.3.0 to 2.4.1
-- Configure database for 16KB page size compatibility with PRAGMA settings
-- Set journal mode to WAL and synchronous mode to NORMAL for better performance
-- Enable NDK version in app/build.gradle
-- Update Android application plugin version from 8.5.0 to 8.6.0
-- Fix TabBarTheme usage in light_theme.dart
-- Update multiple package versions in pubspec.lock including characters, clock, collection, fake_async, flutter_ringtone_player, and leak_tracker dependencies
-- Update app version from 1.0.15+15 to 1.0.16+19
+- Upgraded Build Version to 1.0.0+13
+- Updated Gradle Version to 8.11.1
+- Upgraded AGP version to 8.7.0
+- Fixed 16KB Memory Page Size.
 
-**Github**: [**Link**](https://github.com/IBArtsTech/RxReminderFlutter)\
-**Reyflow**: [Link](https://www.reyflow.com/ib-tech/browse/FLUTT-37/)\
-**screenShot**: [Link](https://prnt.sc/jCWHminiK-13)
+**Demo login**: N/A\
+**GitHub url**: [Link](https://github.com/IBArtsTech/MessagingApp_Revamp.git)\
+**Reyflow:** [Link](https://reyflow.com/ib-tech/browse/FLUTT-24/)
 
 ---
 
-Date: **16-09-2025**\
+Date: **23-09-2025**\
 Project: **LDAS Flutter**\
-Dev Name: **Abhishek Kumar**\
-Status: **Ongoing**
-
-**Project report:**
-
-- uploaded project to github with module configuration.
-- **Github**: [**Link**](https://github.com/abhishekib/here_sdk.git) || [link](https://github.com/abhishekib/LDAS_Flutter)\
-  **Reyflow**: [Link](https://www.reyflow.com/ib-tech/browse/FLUTT-17/)\
-
-  ***
-
-Date: **27-08-2025**\
-Project: **Zoku React Native**\
 Dev Name: **Abhishek Kumar**\
 Status: **Ongoing**
 
@@ -255,48 +218,7 @@ Status: **Ongoing**
 
 - g
 
-**Github**: [**Link**](https://github.com/IBArtsTech/TheZokuAppMobile)\
-**Reyflow**: [**Link**](https://www.reyflow.com/ib-tech/browse/MOBIL-29/)\
-**Application Link:** [AppStore TestFlight]\
-**Credentials:** Email:`abhishekk@ibarts.in` || PW: Abhishek@123
+**Github**: [**Link**](https://github.com/abhishekib/here_sdk.git) || [link](https://github.com/abhishekib/LDAS_Flutter)\
+**Reyflow**: [Link](https://www.reyflow.com/ib-tech/browse/FLUTT-17/)
 
 ---
-
-Date: **14-08-2025**\
-Project: **Lawyyar App**\
-Dev Name: **Abhishek Kumar**\
-Status: **Ongoing**
-
-**Project report:**
-
-- fg
-
-**Github**: [**Link**](https://github.com/IBArtsTech/LawyyarFlutter)\
-**Reyflow**: [**Link**](https://reyflow.com/ib-tech/browse/FLUTT-4/)\
-**Application Link:** [NA]
-
-<!--
----
-
-Good Channel: Helped Chittadeep in Fixing Application flow and api flow.
-
-Date: **17-07-2025**\
-Project: **LDAS App**\
-Dev Name: **Abhishek Kumar**\
-Status: **Ongoing**
-
-**Project report:**
-
-- Merged Kausik's and Chittadeep's code in main branch.
-- refactor(welcome_screen): remove unused package import
-- change NDK version to "27.0.12077973" for compatibility
-- update dependencies and SDK versions
-- import here_sdk core for additional functionality
-- add method to place a marker at the user's current location
-- update camera to focus on the current position marker
-- introduce floating action button to center map on current location
-- implement \_focusOnCurrentLocation method to adjust camera on button press
-
-**Github**: [**Link**](https://github.com/IBArtsTech/LDAS_Flutter)\
-**Reyflow**: [Link](https://reyflow.com/ib-tech/browse/FLUTT-17/)\
-**Application Build**: [Will be Provided by Chittadeep]
